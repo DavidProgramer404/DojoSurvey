@@ -15,10 +15,10 @@ namespace DojoSurvey.Controllers
         [Route("result")]
         public IActionResult Result(string name, string location, string favorite, string comment)
         {
-            ViewBag.Iname = name;
-            ViewBag.Ilocation = location;
-            ViewBag.Ifavorite = favorite;
-            ViewBag.IComment = comment;
+            ViewBag.name = name;
+            ViewBag.location = location;
+            ViewBag.favorite = favorite;
+            ViewBag.Comment = comment;
             return View();
         }
     }
