@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=ADLaM Display' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container">
+        <form action="/result" method="post">
+            <div class="blocks">
+                <label for="name">Your Name: </label>
+                <input type="text" id="name" name="name"></input>
+            </div>
+            <div class="blocks">
+                <label for="dojolocation">Dojo Location: </label>
+                <select id="dojolocation" name="location">
+                    <option>San Jose</option>
+                    <option>San Pedro</option>
+                </select>
+            </div>
+            <div class="blocks">
+                <label for="favoritelanguage">Favorite Language: </label>
+                <select id="favoritelanguage" name="favorite">
+                    <option>C#</option>
+                    <option>C++</option>
+                    <option>C</option>
+                </select>
+            </div>
+            <div class="blocks blockstextarea">
+                <label for="comment">Comment (optional):</label>
+                <textarea id="comment" name="comment"></textarea>
+            </div>
+            <div class="blocks">
+                <button type="submit" class="btn1">Submit</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

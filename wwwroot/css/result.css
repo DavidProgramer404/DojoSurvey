@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+
+}
+
+.subInfo {
+    text-decoration: underline;
+    
+}
+
+p {
+    font-family: 'ADLaM Display';
+}
+
+#comment {
+
+    border: 3px solid black;
+
+
+}
+
+.container .data {
+    width: 25em;
+    padding: 3em;
+    border: 3px solid black;
+
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.container .data :last-child {
+    justify-content: end;
+}
+
+.blockstextarea {
+    flex-direction: column;
+}
+
+.blockstextarea :last-child {
+    margin-top: 1em;
+    border: 1px dotted black;
+    padding: 0.5em;
+}
+
+.btn1 {
+    height: 3.5em;
+    width: 9em;
+    border: 2px solid black;
+    box-shadow: 5px 5px black;
+    background-color: #2b78e4;
+    color: white;
+}
+
+.btn1:active {
+    /* X, Y, blur, color*/
+    box-shadow: 2px 2px 2px black;
+    transform: translateZ(5px);
+    align-items: center;
+}
